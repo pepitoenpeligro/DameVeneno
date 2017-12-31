@@ -7,14 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0D24F3FBCF53D1E9EB9D18 /* Pods_Dame_VenenoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAEEB1630CF32AE00E2D3D5 /* Pods_Dame_VenenoUITests.framework */; };
+		AA9A586F219EBA46CFE94313 /* Pods_Dame_VenenoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD043167D3B0998D3B6F5624 /* Pods_Dame_VenenoTests.framework */; };
+		B110E3361FF8436600F44B22 /* PasitosAyuda.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B110E3351FF8436600F44B22 /* PasitosAyuda.storyboard */; };
+		B18C5D931FF930C3004B687D /* aprieta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5CF81FF930AB004B687D /* aprieta.mp3 */; };
+		B18C5D941FF930C3004B687D /* cansa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5CF91FF930AB004B687D /* cansa.mp3 */; };
+		B18C5D951FF930C3004B687D /* tetas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5CFA1FF930AB004B687D /* tetas.mp3 */; };
+		B18C5D961FF930C3004B687D /* fisna.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5CFB1FF930AB004B687D /* fisna.mp3 */; };
+		B18C5D971FF930C3004B687D /* envidiaSana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5CFC1FF930AB004B687D /* envidiaSana.mp3 */; };
+		B18C5D981FF930C3004B687D /* farruquito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5CFD1FF930AB004B687D /* farruquito.mp3 */; };
+		B18C5D991FF930C3004B687D /* hastaLuego.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5CFE1FF930AB004B687D /* hastaLuego.mp3 */; };
+		B18C5D9A1FF930C3004B687D /* lavidaibaenserio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5CFF1FF930AC004B687D /* lavidaibaenserio.mp3 */; };
+		B18C5D9B1FF930C3004B687D /* setevenlospezones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D001FF930AC004B687D /* setevenlospezones.mp3 */; };
+		B18C5D9C1FF930C3004B687D /* brilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D011FF930AC004B687D /* brilla.mp3 */; };
+		B18C5D9D1FF930C3004B687D /* morcilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D021FF930AC004B687D /* morcilla.mp3 */; };
+		B18C5D9E1FF930C3004B687D /* vida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D031FF930AC004B687D /* vida.mp3 */; };
+		B18C5D9F1FF930C3004B687D /* pollaleopardo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D041FF930AC004B687D /* pollaleopardo.mp3 */; };
+		B18C5DA01FF930C3004B687D /* bellezas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D051FF930AC004B687D /* bellezas.mp3 */; };
+		B18C5DA11FF930C3004B687D /* dotado.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D061FF930AC004B687D /* dotado.mp3 */; };
+		B18C5DA21FF930C3004B687D /* mopa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D071FF930AD004B687D /* mopa.mp3 */; };
+		B18C5DA31FF930C3004B687D /* diplomatico.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D081FF930AD004B687D /* diplomatico.mp3 */; };
+		B18C5DA41FF930C3004B687D /* uy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D091FF930AD004B687D /* uy.mp3 */; };
+		B18C5DA51FF930C3004B687D /* polaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D0A1FF930AD004B687D /* polaca.mp3 */; };
+		B18C5DA61FF930C3004B687D /* cristina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D0B1FF930AD004B687D /* cristina.mp3 */; };
+		B18C5DA71FF930C3004B687D /* copia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D0C1FF930AD004B687D /* copia.mp3 */; };
+		B18C5DA81FF930C3004B687D /* reto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D0D1FF930AD004B687D /* reto.mp3 */; };
+		B18C5DA91FF930C3004B687D /* canto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D0E1FF930AE004B687D /* canto.mp3 */; };
+		B18C5DAA1FF930C3004B687D /* camellona.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D0F1FF930AE004B687D /* camellona.mp3 */; };
+		B18C5DAB1FF930C3004B687D /* aprende.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D101FF930AE004B687D /* aprende.mp3 */; };
+		B18C5DAC1FF930C3004B687D /* insultar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D111FF930AE004B687D /* insultar.mp3 */; };
+		B18C5DAD1FF930C3004B687D /* rosi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D121FF930AE004B687D /* rosi.mp3 */; };
+		B18C5DAE1FF930C3004B687D /* aceituna.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D131FF930AE004B687D /* aceituna.mp3 */; };
+		B18C5DAF1FF930C3004B687D /* woman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D141FF930AF004B687D /* woman.mp3 */; };
+		B18C5DB01FF930C3004B687D /* amiga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D151FF930AF004B687D /* amiga.mp3 */; };
+		B18C5DB11FF930C3004B687D /* braguitas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D161FF930AF004B687D /* braguitas.mp3 */; };
+		B18C5DB21FF930C3004B687D /* adelante.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D171FF930AF004B687D /* adelante.mp3 */; };
+		B18C5DB31FF930C3004B687D /* labio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D181FF930AF004B687D /* labio.mp3 */; };
+		B18C5DB41FF930C3004B687D /* maria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D191FF930AF004B687D /* maria.mp3 */; };
+		B18C5DB51FF930C3004B687D /* pollaNova.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D1A1FF930B0004B687D /* pollaNova.mp3 */; };
+		B18C5DB61FF930C3004B687D /* mundo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D1B1FF930B0004B687D /* mundo.mp3 */; };
+		B18C5DB71FF930C3004B687D /* rojo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D1C1FF930B0004B687D /* rojo.mp3 */; };
+		B18C5DB81FF930C3004B687D /* chuparmamaryfollar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D1D1FF930B0004B687D /* chuparmamaryfollar.mp3 */; };
+		B18C5DB91FF930C3004B687D /* gracias.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D1E1FF930B0004B687D /* gracias.mp3 */; };
+		B18C5DBA1FF930C3004B687D /* escoger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D1F1FF930B0004B687D /* escoger.mp3 */; };
+		B18C5DBB1FF930C3004B687D /* noQueValoh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D201FF930B0004B687D /* noQueValoh.mp3 */; };
+		B18C5DBC1FF930C3004B687D /* sandra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D211FF930B1004B687D /* sandra.mp3 */; };
+		B18C5DBD1FF930C3004B687D /* conozco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D221FF930B1004B687D /* conozco.mp3 */; };
+		B18C5DBE1FF930C3004B687D /* denegao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D231FF930B1004B687D /* denegao.mp3 */; };
+		B18C5DBF1FF930C3004B687D /* criticar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D241FF930B1004B687D /* criticar.mp3 */; };
+		B18C5DC01FF930C3004B687D /* tarantula.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D251FF930B1004B687D /* tarantula.mp3 */; };
+		B18C5DC11FF930C3004B687D /* calentona.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D261FF930B1004B687D /* calentona.mp3 */; };
+		B18C5DC21FF930C3004B687D /* nollevobravas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D271FF930B2004B687D /* nollevobravas.mp3 */; };
+		B18C5DC31FF930C3004B687D /* envidiosa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D281FF930B2004B687D /* envidiosa.mp3 */; };
+		B18C5DC41FF930C3004B687D /* elegias.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D291FF930B2004B687D /* elegias.mp3 */; };
+		B18C5DC51FF930C3004B687D /* cuernos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D2A1FF930B2004B687D /* cuernos.mp3 */; };
+		B18C5DC61FF930C3004B687D /* cartier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D2B1FF930B2004B687D /* cartier.mp3 */; };
+		B18C5DC71FF930C3004B687D /* pollicaNueva.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D2C1FF930B2004B687D /* pollicaNueva.mp3 */; };
+		B18C5DC81FF930C3004B687D /* geronimo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D2D1FF930B2004B687D /* geronimo.mp3 */; };
+		B18C5DC91FF930C3004B687D /* cantar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D2E1FF930B3004B687D /* cantar.mp3 */; };
+		B18C5DCA1FF930C3004B687D /* pues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D2F1FF930B3004B687D /* pues.mp3 */; };
+		B18C5DCB1FF930C3004B687D /* colectivo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D301FF930B3004B687D /* colectivo.mp3 */; };
+		B18C5DCC1FF930C3004B687D /* personaje.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D311FF930B3004B687D /* personaje.mp3 */; };
+		B18C5DCD1FF930C3004B687D /* lepego.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D321FF930B3004B687D /* lepego.mp3 */; };
+		B18C5DCE1FF930C3004B687D /* camaleonica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D331FF930B3004B687D /* camaleonica.mp3 */; };
+		B18C5DCF1FF930C3004B687D /* besos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D341FF930B3004B687D /* besos.mp3 */; };
+		B18C5DD01FF930C3004B687D /* carne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D351FF930B4004B687D /* carne.mp3 */; };
+		B18C5DD11FF930C3004B687D /* farmaceuticos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D361FF930B4004B687D /* farmaceuticos.mp3 */; };
+		B18C5DD21FF930C3004B687D /* veniPaCa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D371FF930B4004B687D /* veniPaCa.mp3 */; };
+		B18C5DD31FF930C3004B687D /* callaros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D381FF930B4004B687D /* callaros.mp3 */; };
+		B18C5DD41FF930C3004B687D /* paipai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D391FF930B4004B687D /* paipai.mp3 */; };
+		B18C5DD51FF930C3004B687D /* maritrini.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D3A1FF930B4004B687D /* maritrini.mp3 */; };
+		B18C5DD61FF930C3004B687D /* sillevobragas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D3B1FF930B5004B687D /* sillevobragas.mp3 */; };
+		B18C5DD71FF930C3004B687D /* ambipur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D3C1FF930B5004B687D /* ambipur.mp3 */; };
+		B18C5DD81FF930C3004B687D /* tarrastro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D3D1FF930B5004B687D /* tarrastro.mp3 */; };
+		B18C5DD91FF930C3004B687D /* callate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D3E1FF930B5004B687D /* callate.mp3 */; };
+		B18C5DDA1FF930C3004B687D /* loca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D3F1FF930B5004B687D /* loca.mp3 */; };
+		B18C5DDB1FF930C3004B687D /* noche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D401FF930B5004B687D /* noche.mp3 */; };
+		B18C5DDC1FF930C3004B687D /* vayais.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D411FF930B5004B687D /* vayais.mp3 */; };
+		B18C5DDD1FF930C3004B687D /* arcancia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D421FF930B6004B687D /* arcancia.mp3 */; };
+		B18C5DDE1FF930C3004B687D /* cuerpo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D431FF930B6004B687D /* cuerpo.mp3 */; };
+		B18C5DDF1FF930C3004B687D /* limusina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D441FF930B6004B687D /* limusina.mp3 */; };
+		B18C5DE01FF930C3004B687D /* mequierestocar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D451FF930B6004B687D /* mequierestocar.mp3 */; };
+		B18C5DE11FF930C3004B687D /* muerta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D461FF930B6004B687D /* muerta.mp3 */; };
+		B18C5DE21FF930C3004B687D /* todos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D471FF930B6004B687D /* todos.mp3 */; };
+		B18C5DE31FF930C3004B687D /* furgolista.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D481FF930B6004B687D /* furgolista.mp3 */; };
+		B18C5DE41FF930C3004B687D /* quiere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D491FF930B7004B687D /* quiere.mp3 */; };
+		B18C5DE51FF930C3004B687D /* vos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D4A1FF930B7004B687D /* vos.mp3 */; };
+		B18C5DE61FF930C3004B687D /* muchisimasgracias.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D4B1FF930B7004B687D /* muchisimasgracias.mp3 */; };
+		B18C5DE71FF930C3004B687D /* deto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D4C1FF930B7004B687D /* deto.mp3 */; };
+		B18C5DE81FF930C3004B687D /* toro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D4D1FF930B7004B687D /* toro.mp3 */; };
+		B18C5DE91FF930C3004B687D /* nifaltaquetehace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D4E1FF930B7004B687D /* nifaltaquetehace.mp3 */; };
+		B18C5DEA1FF930C3004B687D /* andaguapa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D4F1FF930B7004B687D /* andaguapa.mp3 */; };
+		B18C5DEB1FF930C3004B687D /* marranona.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D501FF930B7004B687D /* marranona.mp3 */; };
+		B18C5DEC1FF930C3004B687D /* matorral.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D511FF930B8004B687D /* matorral.mp3 */; };
+		B18C5DED1FF930C3004B687D /* amigoConDerechoARoce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D521FF930B8004B687D /* amigoConDerechoARoce.mp3 */; };
+		B18C5DEE1FF930C3004B687D /* tracatra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D531FF930B8004B687D /* tracatra.mp3 */; };
+		B18C5DEF1FF930C3004B687D /* brevas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D541FF930B8004B687D /* brevas.mp3 */; };
+		B18C5DF01FF930C3004B687D /* sevillana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D551FF930B8004B687D /* sevillana.mp3 */; };
+		B18C5DF11FF930C3004B687D /* espania.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D561FF930B8004B687D /* espania.mp3 */; };
+		B18C5DF21FF930C3004B687D /* aDieta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D571FF930B9004B687D /* aDieta.mp3 */; };
+		B18C5DF31FF930C3004B687D /* ATS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D581FF930B9004B687D /* ATS.mp3 */; };
+		B18C5DF41FF930C3004B687D /* dosEnBragas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D591FF930B9004B687D /* dosEnBragas.mp3 */; };
+		B18C5DF51FF930C3004B687D /* manolo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D5A1FF930B9004B687D /* manolo.mp3 */; };
+		B18C5DF61FF930C3004B687D /* popeye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D5B1FF930B9004B687D /* popeye.mp3 */; };
+		B18C5DF71FF930C3004B687D /* fama.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D5C1FF930B9004B687D /* fama.mp3 */; };
+		B18C5DF81FF930C3004B687D /* quirofanoCompleto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D5D1FF930B9004B687D /* quirofanoCompleto.mp3 */; };
+		B18C5DF91FF930C3004B687D /* higuera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D5E1FF930BA004B687D /* higuera.mp3 */; };
+		B18C5DFA1FF930C3004B687D /* incurta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D5F1FF930BA004B687D /* incurta.mp3 */; };
+		B18C5DFB1FF930C3004B687D /* alamierda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D601FF930BA004B687D /* alamierda.mp3 */; };
+		B18C5DFC1FF930C3004B687D /* cuerpoCompleto.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D611FF930BA004B687D /* cuerpoCompleto.mp3 */; };
+		B18C5DFD1FF930C3004B687D /* fea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D621FF930BB004B687D /* fea.mp3 */; };
+		B18C5DFE1FF930C3004B687D /* maradona.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D631FF930BB004B687D /* maradona.mp3 */; };
+		B18C5DFF1FF930C3004B687D /* nitengoGanas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D641FF930BB004B687D /* nitengoGanas.mp3 */; };
+		B18C5E001FF930C3004B687D /* conosia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D651FF930BB004B687D /* conosia.mp3 */; };
+		B18C5E011FF930C3004B687D /* rocio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D661FF930BB004B687D /* rocio.mp3 */; };
+		B18C5E021FF930C3004B687D /* sombra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D671FF930BB004B687D /* sombra.mp3 */; };
+		B18C5E031FF930C3004B687D /* dedos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D681FF930BC004B687D /* dedos.mp3 */; };
+		B18C5E041FF930C3004B687D /* toya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D691FF930BC004B687D /* toya.mp3 */; };
+		B18C5E051FF930C3004B687D /* tuno.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D6A1FF930BC004B687D /* tuno.mp3 */; };
+		B18C5E061FF930C3004B687D /* tiendaErotica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D6B1FF930BC004B687D /* tiendaErotica.mp3 */; };
+		B18C5E071FF930C3004B687D /* labrar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D6C1FF930BC004B687D /* labrar.mp3 */; };
+		B18C5E081FF930C3004B687D /* talco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D6D1FF930BC004B687D /* talco.mp3 */; };
+		B18C5E091FF930C3004B687D /* mercado.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D6E1FF930BD004B687D /* mercado.mp3 */; };
+		B18C5E0A1FF930C3004B687D /* digo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D6F1FF930BD004B687D /* digo.mp3 */; };
+		B18C5E0B1FF930C3004B687D /* tresruedas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D701FF930BD004B687D /* tresruedas.mp3 */; };
+		B18C5E0C1FF930C3004B687D /* amino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D711FF930BD004B687D /* amino.mp3 */; };
+		B18C5E0D1FF930C3004B687D /* suda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D721FF930BD004B687D /* suda.mp3 */; };
+		B18C5E0E1FF930C3004B687D /* conio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D731FF930BD004B687D /* conio.mp3 */; };
+		B18C5E0F1FF930C3004B687D /* meton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D741FF930BE004B687D /* meton.mp3 */; };
+		B18C5E101FF930C3004B687D /* ordinaria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D751FF930BE004B687D /* ordinaria.mp3 */; };
+		B18C5E111FF930C3004B687D /* cubata.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D761FF930BE004B687D /* cubata.mp3 */; };
+		B18C5E121FF930C3004B687D /* paqueton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D771FF930BE004B687D /* paqueton.mp3 */; };
+		B18C5E131FF930C3004B687D /* perdon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D781FF930BE004B687D /* perdon.mp3 */; };
+		B18C5E141FF930C3004B687D /* poderio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D791FF930BE004B687D /* poderio.mp3 */; };
+		B18C5E151FF930C3004B687D /* caballo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D7A1FF930BF004B687D /* caballo.mp3 */; };
+		B18C5E161FF930C3004B687D /* muyrapido.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D7B1FF930BF004B687D /* muyrapido.mp3 */; };
+		B18C5E171FF930C3004B687D /* mala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D7C1FF930BF004B687D /* mala.mp3 */; };
+		B18C5E181FF930C3004B687D /* manola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D7D1FF930BF004B687D /* manola.mp3 */; };
+		B18C5E191FF930C3004B687D /* puton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D7E1FF930BF004B687D /* puton.mp3 */; };
+		B18C5E1A1FF930C3004B687D /* boxer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D7F1FF930BF004B687D /* boxer.mp3 */; };
+		B18C5E1B1FF930C3004B687D /* enRumano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D801FF930C0004B687D /* enRumano.mp3 */; };
+		B18C5E1C1FF930C3004B687D /* androcur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D811FF930C0004B687D /* androcur.mp3 */; };
+		B18C5E1D1FF930C3004B687D /* obregon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D821FF930C0004B687D /* obregon.mp3 */; };
+		B18C5E1E1FF930C3004B687D /* ejercer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D831FF930C0004B687D /* ejercer.mp3 */; };
+		B18C5E1F1FF930C3004B687D /* ashin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D841FF930C0004B687D /* ashin.mp3 */; };
+		B18C5E201FF930C3004B687D /* aceite.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D851FF930C1004B687D /* aceite.mp3 */; };
+		B18C5E211FF930C3004B687D /* quirofano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D861FF930C1004B687D /* quirofano.mp3 */; };
+		B18C5E221FF930C3004B687D /* negra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D871FF930C1004B687D /* negra.mp3 */; };
+		B18C5E231FF930C3004B687D /* caso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D881FF930C1004B687D /* caso.mp3 */; };
+		B18C5E241FF930C3004B687D /* unaMierda.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D891FF930C1004B687D /* unaMierda.mp3 */; };
+		B18C5E251FF930C3004B687D /* ursula.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D8A1FF930C2004B687D /* ursula.mp3 */; };
+		B18C5E261FF930C3004B687D /* curriculum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D8B1FF930C2004B687D /* curriculum.mp3 */; };
+		B18C5E271FF930C3004B687D /* esta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D8C1FF930C2004B687D /* esta.mp3 */; };
+		B18C5E281FF930C3004B687D /* canalla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D8D1FF930C2004B687D /* canalla.mp3 */; };
+		B18C5E291FF930C3004B687D /* obesa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D8E1FF930C2004B687D /* obesa.mp3 */; };
+		B18C5E2A1FF930C3004B687D /* ojete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D8F1FF930C2004B687D /* ojete.mp3 */; };
+		B18C5E2B1FF930C3004B687D /* si.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D901FF930C3004B687D /* si.mp3 */; };
+		B18C5E2C1FF930C3004B687D /* dormir.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D911FF930C3004B687D /* dormir.mp3 */; };
+		B18C5E2D1FF930C3004B687D /* mal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B18C5D921FF930C3004B687D /* mal.mp3 */; };
+		B18C5E301FF93838004B687D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18C5E2E1FF93838004B687D /* AVKit.framework */; };
+		B18C5E311FF93838004B687D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18C5E2F1FF93838004B687D /* AVFoundation.framework */; };
 		B1B828DF1FF80BC800AF9785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B828DE1FF80BC800AF9785 /* AppDelegate.swift */; };
-		B1B828E11FF80BC800AF9785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B828E01FF80BC800AF9785 /* ViewController.swift */; };
 		B1B828E41FF80BC800AF9785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B828E21FF80BC800AF9785 /* Main.storyboard */; };
 		B1B828E71FF80BC800AF9785 /* Dame_Veneno.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1B828E51FF80BC800AF9785 /* Dame_Veneno.xcdatamodeld */; };
 		B1B828E91FF80BC800AF9785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B828E81FF80BC800AF9785 /* Assets.xcassets */; };
 		B1B828EC1FF80BC800AF9785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B828EA1FF80BC800AF9785 /* LaunchScreen.storyboard */; };
 		B1B828F71FF80BC800AF9785 /* Dame_VenenoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B828F61FF80BC800AF9785 /* Dame_VenenoTests.swift */; };
 		B1B829021FF80BC800AF9785 /* Dame_VenenoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B829011FF80BC800AF9785 /* Dame_VenenoUITests.swift */; };
+		B1B829101FF80CA700AF9785 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8290F1FF80CA700AF9785 /* InterestsViewController.swift */; };
+		B1B829121FF80CC600AF9785 /* ElementoVeneno.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B829111FF80CC600AF9785 /* ElementoVeneno.swift */; };
+		B1B829141FF80CDE00AF9785 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B829131FF80CDE00AF9785 /* InterestCollectionViewCell.swift */; };
+		B1B829181FF81B4700AF9785 /* InformacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B829171FF81B4700AF9785 /* InformacionViewController.swift */; };
+		B1B8291A1FF835A200AF9785 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B829191FF835A200AF9785 /* WebKit.framework */; };
+		EF278E81E0E9DCFB66DBBFC7 /* Pods_Dame_Veneno.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A993B3F2A3C8337A92AB5FB /* Pods_Dame_Veneno.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +200,172 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004CB397ADE8E82590AC080B /* Pods-Dame VenenoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dame VenenoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dame VenenoTests/Pods-Dame VenenoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27863490EB97C039DEB6CA3B /* Pods-Dame VenenoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dame VenenoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dame VenenoTests/Pods-Dame VenenoTests.release.xcconfig"; sourceTree = "<group>"; };
+		30DAF15406717E897A6A4DCC /* Pods-Dame Veneno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dame Veneno.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dame Veneno/Pods-Dame Veneno.release.xcconfig"; sourceTree = "<group>"; };
+		5A993B3F2A3C8337A92AB5FB /* Pods_Dame_Veneno.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dame_Veneno.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBFA7E8C2D5D945003E86D3 /* Pods-Dame Veneno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dame Veneno.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dame Veneno/Pods-Dame Veneno.debug.xcconfig"; sourceTree = "<group>"; };
+		8EAE163E1BFE8F7C78DA9DA3 /* Pods-Dame VenenoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dame VenenoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dame VenenoUITests/Pods-Dame VenenoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B110E3351FF8436600F44B22 /* PasitosAyuda.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PasitosAyuda.storyboard; sourceTree = "<group>"; };
+		B18C5CF81FF930AB004B687D /* aprieta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aprieta.mp3; sourceTree = "<group>"; };
+		B18C5CF91FF930AB004B687D /* cansa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cansa.mp3; sourceTree = "<group>"; };
+		B18C5CFA1FF930AB004B687D /* tetas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tetas.mp3; sourceTree = "<group>"; };
+		B18C5CFB1FF930AB004B687D /* fisna.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fisna.mp3; sourceTree = "<group>"; };
+		B18C5CFC1FF930AB004B687D /* envidiaSana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = envidiaSana.mp3; sourceTree = "<group>"; };
+		B18C5CFD1FF930AB004B687D /* farruquito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = farruquito.mp3; sourceTree = "<group>"; };
+		B18C5CFE1FF930AB004B687D /* hastaLuego.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hastaLuego.mp3; sourceTree = "<group>"; };
+		B18C5CFF1FF930AC004B687D /* lavidaibaenserio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lavidaibaenserio.mp3; sourceTree = "<group>"; };
+		B18C5D001FF930AC004B687D /* setevenlospezones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = setevenlospezones.mp3; sourceTree = "<group>"; };
+		B18C5D011FF930AC004B687D /* brilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brilla.mp3; sourceTree = "<group>"; };
+		B18C5D021FF930AC004B687D /* morcilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = morcilla.mp3; sourceTree = "<group>"; };
+		B18C5D031FF930AC004B687D /* vida.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vida.mp3; sourceTree = "<group>"; };
+		B18C5D041FF930AC004B687D /* pollaleopardo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pollaleopardo.mp3; sourceTree = "<group>"; };
+		B18C5D051FF930AC004B687D /* bellezas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bellezas.mp3; sourceTree = "<group>"; };
+		B18C5D061FF930AC004B687D /* dotado.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dotado.mp3; sourceTree = "<group>"; };
+		B18C5D071FF930AD004B687D /* mopa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mopa.mp3; sourceTree = "<group>"; };
+		B18C5D081FF930AD004B687D /* diplomatico.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = diplomatico.mp3; sourceTree = "<group>"; };
+		B18C5D091FF930AD004B687D /* uy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uy.mp3; sourceTree = "<group>"; };
+		B18C5D0A1FF930AD004B687D /* polaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = polaca.mp3; sourceTree = "<group>"; };
+		B18C5D0B1FF930AD004B687D /* cristina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cristina.mp3; sourceTree = "<group>"; };
+		B18C5D0C1FF930AD004B687D /* copia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = copia.mp3; sourceTree = "<group>"; };
+		B18C5D0D1FF930AD004B687D /* reto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = reto.mp3; sourceTree = "<group>"; };
+		B18C5D0E1FF930AE004B687D /* canto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = canto.mp3; sourceTree = "<group>"; };
+		B18C5D0F1FF930AE004B687D /* camellona.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camellona.mp3; sourceTree = "<group>"; };
+		B18C5D101FF930AE004B687D /* aprende.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aprende.mp3; sourceTree = "<group>"; };
+		B18C5D111FF930AE004B687D /* insultar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = insultar.mp3; sourceTree = "<group>"; };
+		B18C5D121FF930AE004B687D /* rosi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rosi.mp3; sourceTree = "<group>"; };
+		B18C5D131FF930AE004B687D /* aceituna.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aceituna.mp3; sourceTree = "<group>"; };
+		B18C5D141FF930AF004B687D /* woman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woman.mp3; sourceTree = "<group>"; };
+		B18C5D151FF930AF004B687D /* amiga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amiga.mp3; sourceTree = "<group>"; };
+		B18C5D161FF930AF004B687D /* braguitas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = braguitas.mp3; sourceTree = "<group>"; };
+		B18C5D171FF930AF004B687D /* adelante.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adelante.mp3; sourceTree = "<group>"; };
+		B18C5D181FF930AF004B687D /* labio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = labio.mp3; sourceTree = "<group>"; };
+		B18C5D191FF930AF004B687D /* maria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maria.mp3; sourceTree = "<group>"; };
+		B18C5D1A1FF930B0004B687D /* pollaNova.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pollaNova.mp3; sourceTree = "<group>"; };
+		B18C5D1B1FF930B0004B687D /* mundo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mundo.mp3; sourceTree = "<group>"; };
+		B18C5D1C1FF930B0004B687D /* rojo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rojo.mp3; sourceTree = "<group>"; };
+		B18C5D1D1FF930B0004B687D /* chuparmamaryfollar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chuparmamaryfollar.mp3; sourceTree = "<group>"; };
+		B18C5D1E1FF930B0004B687D /* gracias.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gracias.mp3; sourceTree = "<group>"; };
+		B18C5D1F1FF930B0004B687D /* escoger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = escoger.mp3; sourceTree = "<group>"; };
+		B18C5D201FF930B0004B687D /* noQueValoh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noQueValoh.mp3; sourceTree = "<group>"; };
+		B18C5D211FF930B1004B687D /* sandra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sandra.mp3; sourceTree = "<group>"; };
+		B18C5D221FF930B1004B687D /* conozco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = conozco.mp3; sourceTree = "<group>"; };
+		B18C5D231FF930B1004B687D /* denegao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = denegao.mp3; sourceTree = "<group>"; };
+		B18C5D241FF930B1004B687D /* criticar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = criticar.mp3; sourceTree = "<group>"; };
+		B18C5D251FF930B1004B687D /* tarantula.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tarantula.mp3; sourceTree = "<group>"; };
+		B18C5D261FF930B1004B687D /* calentona.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = calentona.mp3; sourceTree = "<group>"; };
+		B18C5D271FF930B2004B687D /* nollevobravas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nollevobravas.mp3; sourceTree = "<group>"; };
+		B18C5D281FF930B2004B687D /* envidiosa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = envidiosa.mp3; sourceTree = "<group>"; };
+		B18C5D291FF930B2004B687D /* elegias.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elegias.mp3; sourceTree = "<group>"; };
+		B18C5D2A1FF930B2004B687D /* cuernos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuernos.mp3; sourceTree = "<group>"; };
+		B18C5D2B1FF930B2004B687D /* cartier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cartier.mp3; sourceTree = "<group>"; };
+		B18C5D2C1FF930B2004B687D /* pollicaNueva.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pollicaNueva.mp3; sourceTree = "<group>"; };
+		B18C5D2D1FF930B2004B687D /* geronimo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = geronimo.mp3; sourceTree = "<group>"; };
+		B18C5D2E1FF930B3004B687D /* cantar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cantar.mp3; sourceTree = "<group>"; };
+		B18C5D2F1FF930B3004B687D /* pues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pues.mp3; sourceTree = "<group>"; };
+		B18C5D301FF930B3004B687D /* colectivo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = colectivo.mp3; sourceTree = "<group>"; };
+		B18C5D311FF930B3004B687D /* personaje.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = personaje.mp3; sourceTree = "<group>"; };
+		B18C5D321FF930B3004B687D /* lepego.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lepego.mp3; sourceTree = "<group>"; };
+		B18C5D331FF930B3004B687D /* camaleonica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camaleonica.mp3; sourceTree = "<group>"; };
+		B18C5D341FF930B3004B687D /* besos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = besos.mp3; sourceTree = "<group>"; };
+		B18C5D351FF930B4004B687D /* carne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = carne.mp3; sourceTree = "<group>"; };
+		B18C5D361FF930B4004B687D /* farmaceuticos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = farmaceuticos.mp3; sourceTree = "<group>"; };
+		B18C5D371FF930B4004B687D /* veniPaCa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = veniPaCa.mp3; sourceTree = "<group>"; };
+		B18C5D381FF930B4004B687D /* callaros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callaros.mp3; sourceTree = "<group>"; };
+		B18C5D391FF930B4004B687D /* paipai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = paipai.mp3; sourceTree = "<group>"; };
+		B18C5D3A1FF930B4004B687D /* maritrini.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maritrini.mp3; sourceTree = "<group>"; };
+		B18C5D3B1FF930B5004B687D /* sillevobragas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sillevobragas.mp3; sourceTree = "<group>"; };
+		B18C5D3C1FF930B5004B687D /* ambipur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ambipur.mp3; sourceTree = "<group>"; };
+		B18C5D3D1FF930B5004B687D /* tarrastro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tarrastro.mp3; sourceTree = "<group>"; };
+		B18C5D3E1FF930B5004B687D /* callate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = callate.mp3; sourceTree = "<group>"; };
+		B18C5D3F1FF930B5004B687D /* loca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loca.mp3; sourceTree = "<group>"; };
+		B18C5D401FF930B5004B687D /* noche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noche.mp3; sourceTree = "<group>"; };
+		B18C5D411FF930B5004B687D /* vayais.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vayais.mp3; sourceTree = "<group>"; };
+		B18C5D421FF930B6004B687D /* arcancia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arcancia.mp3; sourceTree = "<group>"; };
+		B18C5D431FF930B6004B687D /* cuerpo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuerpo.mp3; sourceTree = "<group>"; };
+		B18C5D441FF930B6004B687D /* limusina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = limusina.mp3; sourceTree = "<group>"; };
+		B18C5D451FF930B6004B687D /* mequierestocar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mequierestocar.mp3; sourceTree = "<group>"; };
+		B18C5D461FF930B6004B687D /* muerta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muerta.mp3; sourceTree = "<group>"; };
+		B18C5D471FF930B6004B687D /* todos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = todos.mp3; sourceTree = "<group>"; };
+		B18C5D481FF930B6004B687D /* furgolista.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = furgolista.mp3; sourceTree = "<group>"; };
+		B18C5D491FF930B7004B687D /* quiere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quiere.mp3; sourceTree = "<group>"; };
+		B18C5D4A1FF930B7004B687D /* vos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vos.mp3; sourceTree = "<group>"; };
+		B18C5D4B1FF930B7004B687D /* muchisimasgracias.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muchisimasgracias.mp3; sourceTree = "<group>"; };
+		B18C5D4C1FF930B7004B687D /* deto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = deto.mp3; sourceTree = "<group>"; };
+		B18C5D4D1FF930B7004B687D /* toro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toro.mp3; sourceTree = "<group>"; };
+		B18C5D4E1FF930B7004B687D /* nifaltaquetehace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nifaltaquetehace.mp3; sourceTree = "<group>"; };
+		B18C5D4F1FF930B7004B687D /* andaguapa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = andaguapa.mp3; sourceTree = "<group>"; };
+		B18C5D501FF930B7004B687D /* marranona.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marranona.mp3; sourceTree = "<group>"; };
+		B18C5D511FF930B8004B687D /* matorral.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = matorral.mp3; sourceTree = "<group>"; };
+		B18C5D521FF930B8004B687D /* amigoConDerechoARoce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amigoConDerechoARoce.mp3; sourceTree = "<group>"; };
+		B18C5D531FF930B8004B687D /* tracatra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tracatra.mp3; sourceTree = "<group>"; };
+		B18C5D541FF930B8004B687D /* brevas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brevas.mp3; sourceTree = "<group>"; };
+		B18C5D551FF930B8004B687D /* sevillana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sevillana.mp3; sourceTree = "<group>"; };
+		B18C5D561FF930B8004B687D /* espania.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = espania.mp3; sourceTree = "<group>"; };
+		B18C5D571FF930B9004B687D /* aDieta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aDieta.mp3; sourceTree = "<group>"; };
+		B18C5D581FF930B9004B687D /* ATS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ATS.mp3; sourceTree = "<group>"; };
+		B18C5D591FF930B9004B687D /* dosEnBragas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dosEnBragas.mp3; sourceTree = "<group>"; };
+		B18C5D5A1FF930B9004B687D /* manolo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = manolo.mp3; sourceTree = "<group>"; };
+		B18C5D5B1FF930B9004B687D /* popeye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = popeye.mp3; sourceTree = "<group>"; };
+		B18C5D5C1FF930B9004B687D /* fama.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fama.mp3; sourceTree = "<group>"; };
+		B18C5D5D1FF930B9004B687D /* quirofanoCompleto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quirofanoCompleto.mp3; sourceTree = "<group>"; };
+		B18C5D5E1FF930BA004B687D /* higuera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = higuera.mp3; sourceTree = "<group>"; };
+		B18C5D5F1FF930BA004B687D /* incurta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incurta.mp3; sourceTree = "<group>"; };
+		B18C5D601FF930BA004B687D /* alamierda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alamierda.mp3; sourceTree = "<group>"; };
+		B18C5D611FF930BA004B687D /* cuerpoCompleto.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuerpoCompleto.mp3; sourceTree = "<group>"; };
+		B18C5D621FF930BB004B687D /* fea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fea.mp3; sourceTree = "<group>"; };
+		B18C5D631FF930BB004B687D /* maradona.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maradona.mp3; sourceTree = "<group>"; };
+		B18C5D641FF930BB004B687D /* nitengoGanas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nitengoGanas.mp3; sourceTree = "<group>"; };
+		B18C5D651FF930BB004B687D /* conosia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = conosia.mp3; sourceTree = "<group>"; };
+		B18C5D661FF930BB004B687D /* rocio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rocio.mp3; sourceTree = "<group>"; };
+		B18C5D671FF930BB004B687D /* sombra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sombra.mp3; sourceTree = "<group>"; };
+		B18C5D681FF930BC004B687D /* dedos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dedos.mp3; sourceTree = "<group>"; };
+		B18C5D691FF930BC004B687D /* toya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = toya.mp3; sourceTree = "<group>"; };
+		B18C5D6A1FF930BC004B687D /* tuno.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tuno.mp3; sourceTree = "<group>"; };
+		B18C5D6B1FF930BC004B687D /* tiendaErotica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tiendaErotica.mp3; sourceTree = "<group>"; };
+		B18C5D6C1FF930BC004B687D /* labrar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = labrar.mp3; sourceTree = "<group>"; };
+		B18C5D6D1FF930BC004B687D /* talco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = talco.mp3; sourceTree = "<group>"; };
+		B18C5D6E1FF930BD004B687D /* mercado.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mercado.mp3; sourceTree = "<group>"; };
+		B18C5D6F1FF930BD004B687D /* digo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = digo.mp3; sourceTree = "<group>"; };
+		B18C5D701FF930BD004B687D /* tresruedas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tresruedas.mp3; sourceTree = "<group>"; };
+		B18C5D711FF930BD004B687D /* amino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = amino.mp3; sourceTree = "<group>"; };
+		B18C5D721FF930BD004B687D /* suda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = suda.mp3; sourceTree = "<group>"; };
+		B18C5D731FF930BD004B687D /* conio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = conio.mp3; sourceTree = "<group>"; };
+		B18C5D741FF930BE004B687D /* meton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meton.mp3; sourceTree = "<group>"; };
+		B18C5D751FF930BE004B687D /* ordinaria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ordinaria.mp3; sourceTree = "<group>"; };
+		B18C5D761FF930BE004B687D /* cubata.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cubata.mp3; sourceTree = "<group>"; };
+		B18C5D771FF930BE004B687D /* paqueton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = paqueton.mp3; sourceTree = "<group>"; };
+		B18C5D781FF930BE004B687D /* perdon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perdon.mp3; sourceTree = "<group>"; };
+		B18C5D791FF930BE004B687D /* poderio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = poderio.mp3; sourceTree = "<group>"; };
+		B18C5D7A1FF930BF004B687D /* caballo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = caballo.mp3; sourceTree = "<group>"; };
+		B18C5D7B1FF930BF004B687D /* muyrapido.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muyrapido.mp3; sourceTree = "<group>"; };
+		B18C5D7C1FF930BF004B687D /* mala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mala.mp3; sourceTree = "<group>"; };
+		B18C5D7D1FF930BF004B687D /* manola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = manola.mp3; sourceTree = "<group>"; };
+		B18C5D7E1FF930BF004B687D /* puton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = puton.mp3; sourceTree = "<group>"; };
+		B18C5D7F1FF930BF004B687D /* boxer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boxer.mp3; sourceTree = "<group>"; };
+		B18C5D801FF930C0004B687D /* enRumano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enRumano.mp3; sourceTree = "<group>"; };
+		B18C5D811FF930C0004B687D /* androcur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = androcur.mp3; sourceTree = "<group>"; };
+		B18C5D821FF930C0004B687D /* obregon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = obregon.mp3; sourceTree = "<group>"; };
+		B18C5D831FF930C0004B687D /* ejercer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ejercer.mp3; sourceTree = "<group>"; };
+		B18C5D841FF930C0004B687D /* ashin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ashin.mp3; sourceTree = "<group>"; };
+		B18C5D851FF930C1004B687D /* aceite.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aceite.mp3; sourceTree = "<group>"; };
+		B18C5D861FF930C1004B687D /* quirofano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quirofano.mp3; sourceTree = "<group>"; };
+		B18C5D871FF930C1004B687D /* negra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = negra.mp3; sourceTree = "<group>"; };
+		B18C5D881FF930C1004B687D /* caso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = caso.mp3; sourceTree = "<group>"; };
+		B18C5D891FF930C1004B687D /* unaMierda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unaMierda.mp3; sourceTree = "<group>"; };
+		B18C5D8A1FF930C2004B687D /* ursula.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ursula.mp3; sourceTree = "<group>"; };
+		B18C5D8B1FF930C2004B687D /* curriculum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = curriculum.mp3; sourceTree = "<group>"; };
+		B18C5D8C1FF930C2004B687D /* esta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = esta.mp3; sourceTree = "<group>"; };
+		B18C5D8D1FF930C2004B687D /* canalla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = canalla.mp3; sourceTree = "<group>"; };
+		B18C5D8E1FF930C2004B687D /* obesa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = obesa.mp3; sourceTree = "<group>"; };
+		B18C5D8F1FF930C2004B687D /* ojete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ojete.mp3; sourceTree = "<group>"; };
+		B18C5D901FF930C3004B687D /* si.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = si.mp3; sourceTree = "<group>"; };
+		B18C5D911FF930C3004B687D /* dormir.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dormir.mp3; sourceTree = "<group>"; };
+		B18C5D921FF930C3004B687D /* mal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mal.mp3; sourceTree = "<group>"; };
+		B18C5E2E1FF93838004B687D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		B18C5E2F1FF93838004B687D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B1B828DB1FF80BC800AF9785 /* Dame Veneno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dame Veneno.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B828DE1FF80BC800AF9785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1B828E01FF80BC800AF9785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1B828E31FF80BC800AF9785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1B828E61FF80BC800AF9785 /* Dame_Veneno.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dame_Veneno.xcdatamodel; sourceTree = "<group>"; };
 		B1B828E81FF80BC800AF9785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +377,14 @@
 		B1B828FD1FF80BC800AF9785 /* Dame VenenoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dame VenenoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B829011FF80BC800AF9785 /* Dame_VenenoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dame_VenenoUITests.swift; sourceTree = "<group>"; };
 		B1B829031FF80BC800AF9785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B8290F1FF80CA700AF9785 /* InterestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		B1B829111FF80CC600AF9785 /* ElementoVeneno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementoVeneno.swift; sourceTree = "<group>"; };
+		B1B829131FF80CDE00AF9785 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		B1B829171FF81B4700AF9785 /* InformacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacionViewController.swift; sourceTree = "<group>"; };
+		B1B829191FF835A200AF9785 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CD043167D3B0998D3B6F5624 /* Pods_Dame_VenenoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dame_VenenoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBA95D9B1B749755EB3F8DA /* Pods-Dame VenenoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dame VenenoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dame VenenoUITests/Pods-Dame VenenoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDAEEB1630CF32AE00E2D3D5 /* Pods_Dame_VenenoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dame_VenenoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +392,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18C5E301FF93838004B687D /* AVKit.framework in Frameworks */,
+				B18C5E311FF93838004B687D /* AVFoundation.framework in Frameworks */,
+				B1B8291A1FF835A200AF9785 /* WebKit.framework in Frameworks */,
+				EF278E81E0E9DCFB66DBBFC7 /* Pods_Dame_Veneno.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +403,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9A586F219EBA46CFE94313 /* Pods_Dame_VenenoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +411,224 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0D24F3FBCF53D1E9EB9D18 /* Pods_Dame_VenenoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21C32EC99D2ECDAD8EB5E8BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CBFA7E8C2D5D945003E86D3 /* Pods-Dame Veneno.debug.xcconfig */,
+				30DAF15406717E897A6A4DCC /* Pods-Dame Veneno.release.xcconfig */,
+				004CB397ADE8E82590AC080B /* Pods-Dame VenenoTests.debug.xcconfig */,
+				27863490EB97C039DEB6CA3B /* Pods-Dame VenenoTests.release.xcconfig */,
+				EDBA95D9B1B749755EB3F8DA /* Pods-Dame VenenoUITests.debug.xcconfig */,
+				8EAE163E1BFE8F7C78DA9DA3 /* Pods-Dame VenenoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B18C5CF31FF90E28004B687D /* ControladoresDeVistas */ = {
+			isa = PBXGroup;
+			children = (
+				B18C5CF61FF90E82004B687D /* ControladorCelda */,
+				B1B8290F1FF80CA700AF9785 /* InterestsViewController.swift */,
+				B1B829171FF81B4700AF9785 /* InformacionViewController.swift */,
+			);
+			path = ControladoresDeVistas;
+			sourceTree = "<group>";
+		};
+		B18C5CF41FF90E4B004B687D /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				B1B829111FF80CC600AF9785 /* ElementoVeneno.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		B18C5CF51FF90E58004B687D /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				B1B828E21FF80BC800AF9785 /* Main.storyboard */,
+				B1B828EA1FF80BC800AF9785 /* LaunchScreen.storyboard */,
+				B110E3351FF8436600F44B22 /* PasitosAyuda.storyboard */,
+			);
+			path = Vistas;
+			sourceTree = "<group>";
+		};
+		B18C5CF61FF90E82004B687D /* ControladorCelda */ = {
+			isa = PBXGroup;
+			children = (
+				B1B829131FF80CDE00AF9785 /* InterestCollectionViewCell.swift */,
+			);
+			path = ControladorCelda;
+			sourceTree = "<group>";
+		};
+		B18C5CF71FF93071004B687D /* ArchivosAudio */ = {
+			isa = PBXGroup;
+			children = (
+				B18C5D851FF930C1004B687D /* aceite.mp3 */,
+				B18C5D131FF930AE004B687D /* aceituna.mp3 */,
+				B18C5D171FF930AF004B687D /* adelante.mp3 */,
+				B18C5D571FF930B9004B687D /* aDieta.mp3 */,
+				B18C5D601FF930BA004B687D /* alamierda.mp3 */,
+				B18C5D3C1FF930B5004B687D /* ambipur.mp3 */,
+				B18C5D151FF930AF004B687D /* amiga.mp3 */,
+				B18C5D521FF930B8004B687D /* amigoConDerechoARoce.mp3 */,
+				B18C5D711FF930BD004B687D /* amino.mp3 */,
+				B18C5D4F1FF930B7004B687D /* andaguapa.mp3 */,
+				B18C5D811FF930C0004B687D /* androcur.mp3 */,
+				B18C5D101FF930AE004B687D /* aprende.mp3 */,
+				B18C5CF81FF930AB004B687D /* aprieta.mp3 */,
+				B18C5D421FF930B6004B687D /* arcancia.mp3 */,
+				B18C5D841FF930C0004B687D /* ashin.mp3 */,
+				B18C5D581FF930B9004B687D /* ATS.mp3 */,
+				B18C5D051FF930AC004B687D /* bellezas.mp3 */,
+				B18C5D341FF930B3004B687D /* besos.mp3 */,
+				B18C5D7F1FF930BF004B687D /* boxer.mp3 */,
+				B18C5D161FF930AF004B687D /* braguitas.mp3 */,
+				B18C5D541FF930B8004B687D /* brevas.mp3 */,
+				B18C5D011FF930AC004B687D /* brilla.mp3 */,
+				B18C5D7A1FF930BF004B687D /* caballo.mp3 */,
+				B18C5D261FF930B1004B687D /* calentona.mp3 */,
+				B18C5D381FF930B4004B687D /* callaros.mp3 */,
+				B18C5D3E1FF930B5004B687D /* callate.mp3 */,
+				B18C5D331FF930B3004B687D /* camaleonica.mp3 */,
+				B18C5D0F1FF930AE004B687D /* camellona.mp3 */,
+				B18C5D8D1FF930C2004B687D /* canalla.mp3 */,
+				B18C5CF91FF930AB004B687D /* cansa.mp3 */,
+				B18C5D2E1FF930B3004B687D /* cantar.mp3 */,
+				B18C5D0E1FF930AE004B687D /* canto.mp3 */,
+				B18C5D351FF930B4004B687D /* carne.mp3 */,
+				B18C5D2B1FF930B2004B687D /* cartier.mp3 */,
+				B18C5D881FF930C1004B687D /* caso.mp3 */,
+				B18C5D1D1FF930B0004B687D /* chuparmamaryfollar.mp3 */,
+				B18C5D301FF930B3004B687D /* colectivo.mp3 */,
+				B18C5D731FF930BD004B687D /* conio.mp3 */,
+				B18C5D651FF930BB004B687D /* conosia.mp3 */,
+				B18C5D221FF930B1004B687D /* conozco.mp3 */,
+				B18C5D0C1FF930AD004B687D /* copia.mp3 */,
+				B18C5D0B1FF930AD004B687D /* cristina.mp3 */,
+				B18C5D241FF930B1004B687D /* criticar.mp3 */,
+				B18C5D761FF930BE004B687D /* cubata.mp3 */,
+				B18C5D2A1FF930B2004B687D /* cuernos.mp3 */,
+				B18C5D431FF930B6004B687D /* cuerpo.mp3 */,
+				B18C5D611FF930BA004B687D /* cuerpoCompleto.mp3 */,
+				B18C5D8B1FF930C2004B687D /* curriculum.mp3 */,
+				B18C5D681FF930BC004B687D /* dedos.mp3 */,
+				B18C5D231FF930B1004B687D /* denegao.mp3 */,
+				B18C5D4C1FF930B7004B687D /* deto.mp3 */,
+				B18C5D6F1FF930BD004B687D /* digo.mp3 */,
+				B18C5D081FF930AD004B687D /* diplomatico.mp3 */,
+				B18C5D911FF930C3004B687D /* dormir.mp3 */,
+				B18C5D591FF930B9004B687D /* dosEnBragas.mp3 */,
+				B18C5D061FF930AC004B687D /* dotado.mp3 */,
+				B18C5D831FF930C0004B687D /* ejercer.mp3 */,
+				B18C5D291FF930B2004B687D /* elegias.mp3 */,
+				B18C5D801FF930C0004B687D /* enRumano.mp3 */,
+				B18C5CFC1FF930AB004B687D /* envidiaSana.mp3 */,
+				B18C5D281FF930B2004B687D /* envidiosa.mp3 */,
+				B18C5D1F1FF930B0004B687D /* escoger.mp3 */,
+				B18C5D561FF930B8004B687D /* espania.mp3 */,
+				B18C5D8C1FF930C2004B687D /* esta.mp3 */,
+				B18C5D5C1FF930B9004B687D /* fama.mp3 */,
+				B18C5D361FF930B4004B687D /* farmaceuticos.mp3 */,
+				B18C5CFD1FF930AB004B687D /* farruquito.mp3 */,
+				B18C5D621FF930BB004B687D /* fea.mp3 */,
+				B18C5CFB1FF930AB004B687D /* fisna.mp3 */,
+				B18C5D481FF930B6004B687D /* furgolista.mp3 */,
+				B18C5D2D1FF930B2004B687D /* geronimo.mp3 */,
+				B18C5D1E1FF930B0004B687D /* gracias.mp3 */,
+				B18C5CFE1FF930AB004B687D /* hastaLuego.mp3 */,
+				B18C5D5E1FF930BA004B687D /* higuera.mp3 */,
+				B18C5D5F1FF930BA004B687D /* incurta.mp3 */,
+				B18C5D111FF930AE004B687D /* insultar.mp3 */,
+				B18C5D181FF930AF004B687D /* labio.mp3 */,
+				B18C5D6C1FF930BC004B687D /* labrar.mp3 */,
+				B18C5CFF1FF930AC004B687D /* lavidaibaenserio.mp3 */,
+				B18C5D321FF930B3004B687D /* lepego.mp3 */,
+				B18C5D441FF930B6004B687D /* limusina.mp3 */,
+				B18C5D3F1FF930B5004B687D /* loca.mp3 */,
+				B18C5D921FF930C3004B687D /* mal.mp3 */,
+				B18C5D7C1FF930BF004B687D /* mala.mp3 */,
+				B18C5D7D1FF930BF004B687D /* manola.mp3 */,
+				B18C5D5A1FF930B9004B687D /* manolo.mp3 */,
+				B18C5D631FF930BB004B687D /* maradona.mp3 */,
+				B18C5D191FF930AF004B687D /* maria.mp3 */,
+				B18C5D3A1FF930B4004B687D /* maritrini.mp3 */,
+				B18C5D501FF930B7004B687D /* marranona.mp3 */,
+				B18C5D511FF930B8004B687D /* matorral.mp3 */,
+				B18C5D451FF930B6004B687D /* mequierestocar.mp3 */,
+				B18C5D6E1FF930BD004B687D /* mercado.mp3 */,
+				B18C5D741FF930BE004B687D /* meton.mp3 */,
+				B18C5D071FF930AD004B687D /* mopa.mp3 */,
+				B18C5D021FF930AC004B687D /* morcilla.mp3 */,
+				B18C5D4B1FF930B7004B687D /* muchisimasgracias.mp3 */,
+				B18C5D461FF930B6004B687D /* muerta.mp3 */,
+				B18C5D1B1FF930B0004B687D /* mundo.mp3 */,
+				B18C5D7B1FF930BF004B687D /* muyrapido.mp3 */,
+				B18C5D871FF930C1004B687D /* negra.mp3 */,
+				B18C5D4E1FF930B7004B687D /* nifaltaquetehace.mp3 */,
+				B18C5D641FF930BB004B687D /* nitengoGanas.mp3 */,
+				B18C5D401FF930B5004B687D /* noche.mp3 */,
+				B18C5D271FF930B2004B687D /* nollevobravas.mp3 */,
+				B18C5D201FF930B0004B687D /* noQueValoh.mp3 */,
+				B18C5D8E1FF930C2004B687D /* obesa.mp3 */,
+				B18C5D821FF930C0004B687D /* obregon.mp3 */,
+				B18C5D8F1FF930C2004B687D /* ojete.mp3 */,
+				B18C5D751FF930BE004B687D /* ordinaria.mp3 */,
+				B18C5D391FF930B4004B687D /* paipai.mp3 */,
+				B18C5D771FF930BE004B687D /* paqueton.mp3 */,
+				B18C5D781FF930BE004B687D /* perdon.mp3 */,
+				B18C5D311FF930B3004B687D /* personaje.mp3 */,
+				B18C5D791FF930BE004B687D /* poderio.mp3 */,
+				B18C5D0A1FF930AD004B687D /* polaca.mp3 */,
+				B18C5D041FF930AC004B687D /* pollaleopardo.mp3 */,
+				B18C5D1A1FF930B0004B687D /* pollaNova.mp3 */,
+				B18C5D2C1FF930B2004B687D /* pollicaNueva.mp3 */,
+				B18C5D5B1FF930B9004B687D /* popeye.mp3 */,
+				B18C5D2F1FF930B3004B687D /* pues.mp3 */,
+				B18C5D7E1FF930BF004B687D /* puton.mp3 */,
+				B18C5D491FF930B7004B687D /* quiere.mp3 */,
+				B18C5D861FF930C1004B687D /* quirofano.mp3 */,
+				B18C5D5D1FF930B9004B687D /* quirofanoCompleto.mp3 */,
+				B18C5D0D1FF930AD004B687D /* reto.mp3 */,
+				B18C5D661FF930BB004B687D /* rocio.mp3 */,
+				B18C5D1C1FF930B0004B687D /* rojo.mp3 */,
+				B18C5D121FF930AE004B687D /* rosi.mp3 */,
+				B18C5D211FF930B1004B687D /* sandra.mp3 */,
+				B18C5D001FF930AC004B687D /* setevenlospezones.mp3 */,
+				B18C5D551FF930B8004B687D /* sevillana.mp3 */,
+				B18C5D901FF930C3004B687D /* si.mp3 */,
+				B18C5D3B1FF930B5004B687D /* sillevobragas.mp3 */,
+				B18C5D671FF930BB004B687D /* sombra.mp3 */,
+				B18C5D721FF930BD004B687D /* suda.mp3 */,
+				B18C5D6D1FF930BC004B687D /* talco.mp3 */,
+				B18C5D251FF930B1004B687D /* tarantula.mp3 */,
+				B18C5D3D1FF930B5004B687D /* tarrastro.mp3 */,
+				B18C5CFA1FF930AB004B687D /* tetas.mp3 */,
+				B18C5D6B1FF930BC004B687D /* tiendaErotica.mp3 */,
+				B18C5D471FF930B6004B687D /* todos.mp3 */,
+				B18C5D4D1FF930B7004B687D /* toro.mp3 */,
+				B18C5D691FF930BC004B687D /* toya.mp3 */,
+				B18C5D531FF930B8004B687D /* tracatra.mp3 */,
+				B18C5D701FF930BD004B687D /* tresruedas.mp3 */,
+				B18C5D6A1FF930BC004B687D /* tuno.mp3 */,
+				B18C5D891FF930C1004B687D /* unaMierda.mp3 */,
+				B18C5D8A1FF930C2004B687D /* ursula.mp3 */,
+				B18C5D091FF930AD004B687D /* uy.mp3 */,
+				B18C5D411FF930B5004B687D /* vayais.mp3 */,
+				B18C5D371FF930B4004B687D /* veniPaCa.mp3 */,
+				B18C5D031FF930AC004B687D /* vida.mp3 */,
+				B18C5D4A1FF930B7004B687D /* vos.mp3 */,
+				B18C5D141FF930AF004B687D /* woman.mp3 */,
+			);
+			path = ArchivosAudio;
+			sourceTree = "<group>";
+		};
 		B1B828D21FF80BC700AF9785 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +636,8 @@
 				B1B828F51FF80BC800AF9785 /* Dame VenenoTests */,
 				B1B829001FF80BC800AF9785 /* Dame VenenoUITests */,
 				B1B828DC1FF80BC800AF9785 /* Products */,
+				21C32EC99D2ECDAD8EB5E8BF /* Pods */,
+				D62AD594E83C843A411BD181 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +654,12 @@
 		B1B828DD1FF80BC800AF9785 /* Dame Veneno */ = {
 			isa = PBXGroup;
 			children = (
+				B18C5CF71FF93071004B687D /* ArchivosAudio */,
 				B1B828DE1FF80BC800AF9785 /* AppDelegate.swift */,
-				B1B828E01FF80BC800AF9785 /* ViewController.swift */,
-				B1B828E21FF80BC800AF9785 /* Main.storyboard */,
+				B18C5CF51FF90E58004B687D /* Vistas */,
+				B18C5CF41FF90E4B004B687D /* Modelo */,
+				B18C5CF31FF90E28004B687D /* ControladoresDeVistas */,
 				B1B828E81FF80BC800AF9785 /* Assets.xcassets */,
-				B1B828EA1FF80BC800AF9785 /* LaunchScreen.storyboard */,
 				B1B828ED1FF80BC800AF9785 /* Info.plist */,
 				B1B828E51FF80BC800AF9785 /* Dame_Veneno.xcdatamodeld */,
 			);
@@ -128,6 +684,19 @@
 			path = "Dame VenenoUITests";
 			sourceTree = "<group>";
 		};
+		D62AD594E83C843A411BD181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B18C5E2F1FF93838004B687D /* AVFoundation.framework */,
+				B18C5E2E1FF93838004B687D /* AVKit.framework */,
+				B1B829191FF835A200AF9785 /* WebKit.framework */,
+				5A993B3F2A3C8337A92AB5FB /* Pods_Dame_Veneno.framework */,
+				CD043167D3B0998D3B6F5624 /* Pods_Dame_VenenoTests.framework */,
+				FDAEEB1630CF32AE00E2D3D5 /* Pods_Dame_VenenoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +704,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1B829061FF80BC800AF9785 /* Build configuration list for PBXNativeTarget "Dame Veneno" */;
 			buildPhases = (
+				C7E80FF3A0309D70942F5560 /* [CP] Check Pods Manifest.lock */,
 				B1B828D71FF80BC800AF9785 /* Sources */,
 				B1B828D81FF80BC800AF9785 /* Frameworks */,
 				B1B828D91FF80BC800AF9785 /* Resources */,
+				44EFF0E6DFDACD463DA3543A /* [CP] Embed Pods Frameworks */,
+				4A6F52F05F55F6B4370549C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +724,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1B829091FF80BC800AF9785 /* Build configuration list for PBXNativeTarget "Dame VenenoTests" */;
 			buildPhases = (
+				D46733600C3A96A4840F8C03 /* [CP] Check Pods Manifest.lock */,
 				B1B828EE1FF80BC800AF9785 /* Sources */,
 				B1B828EF1FF80BC800AF9785 /* Frameworks */,
 				B1B828F01FF80BC800AF9785 /* Resources */,
+				A0392A68D2B587F07F010CA5 /* [CP] Embed Pods Frameworks */,
+				04A24887FBC977F17C5FD00B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +745,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1B8290C1FF80BC800AF9785 /* Build configuration list for PBXNativeTarget "Dame VenenoUITests" */;
 			buildPhases = (
+				288F1A9EEBF1A19DF2483897 /* [CP] Check Pods Manifest.lock */,
 				B1B828F91FF80BC800AF9785 /* Sources */,
 				B1B828FA1FF80BC800AF9785 /* Frameworks */,
 				B1B828FB1FF80BC800AF9785 /* Resources */,
+				68D611BA822247B3FC38C28B /* [CP] Embed Pods Frameworks */,
+				1DB171452E134FF6D38A44E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +813,165 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B18C5E101FF930C3004B687D /* ordinaria.mp3 in Resources */,
+				B18C5DE61FF930C3004B687D /* muchisimasgracias.mp3 in Resources */,
+				B18C5D9F1FF930C3004B687D /* pollaleopardo.mp3 in Resources */,
+				B18C5E141FF930C3004B687D /* poderio.mp3 in Resources */,
+				B18C5DD21FF930C3004B687D /* veniPaCa.mp3 in Resources */,
+				B18C5DC01FF930C3004B687D /* tarantula.mp3 in Resources */,
+				B18C5E2D1FF930C3004B687D /* mal.mp3 in Resources */,
+				B18C5E091FF930C3004B687D /* mercado.mp3 in Resources */,
+				B18C5DB41FF930C3004B687D /* maria.mp3 in Resources */,
+				B18C5DA71FF930C3004B687D /* copia.mp3 in Resources */,
+				B18C5D961FF930C3004B687D /* fisna.mp3 in Resources */,
+				B18C5DC21FF930C3004B687D /* nollevobravas.mp3 in Resources */,
+				B18C5D951FF930C3004B687D /* tetas.mp3 in Resources */,
+				B18C5DC41FF930C3004B687D /* elegias.mp3 in Resources */,
+				B18C5E0C1FF930C3004B687D /* amino.mp3 in Resources */,
+				B18C5DAF1FF930C3004B687D /* woman.mp3 in Resources */,
+				B18C5E1D1FF930C3004B687D /* obregon.mp3 in Resources */,
+				B18C5E1A1FF930C3004B687D /* boxer.mp3 in Resources */,
+				B18C5E1C1FF930C3004B687D /* androcur.mp3 in Resources */,
+				B18C5DF71FF930C3004B687D /* fama.mp3 in Resources */,
+				B18C5DFF1FF930C3004B687D /* nitengoGanas.mp3 in Resources */,
+				B18C5DF11FF930C3004B687D /* espania.mp3 in Resources */,
+				B18C5DD71FF930C3004B687D /* ambipur.mp3 in Resources */,
+				B18C5DA51FF930C3004B687D /* polaca.mp3 in Resources */,
+				B18C5DE91FF930C3004B687D /* nifaltaquetehace.mp3 in Resources */,
+				B18C5E221FF930C3004B687D /* negra.mp3 in Resources */,
+				B18C5DB71FF930C3004B687D /* rojo.mp3 in Resources */,
+				B18C5DEF1FF930C3004B687D /* brevas.mp3 in Resources */,
+				B18C5DCA1FF930C3004B687D /* pues.mp3 in Resources */,
+				B18C5D9C1FF930C3004B687D /* brilla.mp3 in Resources */,
+				B18C5DC81FF930C3004B687D /* geronimo.mp3 in Resources */,
+				B18C5DC91FF930C3004B687D /* cantar.mp3 in Resources */,
+				B18C5DDA1FF930C3004B687D /* loca.mp3 in Resources */,
+				B18C5DAC1FF930C3004B687D /* insultar.mp3 in Resources */,
+				B18C5DCC1FF930C3004B687D /* personaje.mp3 in Resources */,
+				B18C5DF21FF930C3004B687D /* aDieta.mp3 in Resources */,
+				B18C5DA01FF930C3004B687D /* bellezas.mp3 in Resources */,
+				B18C5DFC1FF930C3004B687D /* cuerpoCompleto.mp3 in Resources */,
+				B18C5E231FF930C3004B687D /* caso.mp3 in Resources */,
+				B18C5DD51FF930C3004B687D /* maritrini.mp3 in Resources */,
+				B18C5DDE1FF930C3004B687D /* cuerpo.mp3 in Resources */,
+				B18C5DE11FF930C3004B687D /* muerta.mp3 in Resources */,
+				B18C5DBB1FF930C3004B687D /* noQueValoh.mp3 in Resources */,
+				B18C5DF51FF930C3004B687D /* manolo.mp3 in Resources */,
+				B18C5DBF1FF930C3004B687D /* criticar.mp3 in Resources */,
+				B18C5DD81FF930C3004B687D /* tarrastro.mp3 in Resources */,
+				B18C5D9B1FF930C3004B687D /* setevenlospezones.mp3 in Resources */,
+				B18C5DF61FF930C3004B687D /* popeye.mp3 in Resources */,
+				B18C5DA41FF930C3004B687D /* uy.mp3 in Resources */,
+				B18C5DBA1FF930C3004B687D /* escoger.mp3 in Resources */,
+				B18C5E131FF930C3004B687D /* perdon.mp3 in Resources */,
+				B18C5D981FF930C3004B687D /* farruquito.mp3 in Resources */,
+				B18C5DBD1FF930C3004B687D /* conozco.mp3 in Resources */,
+				B18C5E071FF930C3004B687D /* labrar.mp3 in Resources */,
+				B18C5DB31FF930C3004B687D /* labio.mp3 in Resources */,
+				B18C5D9D1FF930C3004B687D /* morcilla.mp3 in Resources */,
+				B18C5E241FF930C3004B687D /* unaMierda.mp3 in Resources */,
+				B18C5E2B1FF930C3004B687D /* si.mp3 in Resources */,
+				B18C5DCD1FF930C3004B687D /* lepego.mp3 in Resources */,
+				B18C5DD01FF930C3004B687D /* carne.mp3 in Resources */,
+				B18C5DFD1FF930C3004B687D /* fea.mp3 in Resources */,
+				B18C5DB11FF930C3004B687D /* braguitas.mp3 in Resources */,
+				B18C5DDD1FF930C3004B687D /* arcancia.mp3 in Resources */,
+				B18C5DD91FF930C3004B687D /* callate.mp3 in Resources */,
+				B18C5DF01FF930C3004B687D /* sevillana.mp3 in Resources */,
+				B18C5E121FF930C3004B687D /* paqueton.mp3 in Resources */,
 				B1B828EC1FF80BC800AF9785 /* LaunchScreen.storyboard in Resources */,
+				B18C5E271FF930C3004B687D /* esta.mp3 in Resources */,
+				B18C5E151FF930C3004B687D /* caballo.mp3 in Resources */,
+				B18C5DC11FF930C3004B687D /* calentona.mp3 in Resources */,
+				B18C5DB81FF930C3004B687D /* chuparmamaryfollar.mp3 in Resources */,
+				B18C5E0F1FF930C3004B687D /* meton.mp3 in Resources */,
+				B18C5DEC1FF930C3004B687D /* matorral.mp3 in Resources */,
+				B18C5DC51FF930C3004B687D /* cuernos.mp3 in Resources */,
+				B18C5DF41FF930C3004B687D /* dosEnBragas.mp3 in Resources */,
+				B18C5E281FF930C3004B687D /* canalla.mp3 in Resources */,
+				B18C5E201FF930C3004B687D /* aceite.mp3 in Resources */,
+				B18C5D941FF930C3004B687D /* cansa.mp3 in Resources */,
+				B18C5E1B1FF930C3004B687D /* enRumano.mp3 in Resources */,
+				B18C5DE21FF930C3004B687D /* todos.mp3 in Resources */,
+				B18C5E0A1FF930C3004B687D /* digo.mp3 in Resources */,
+				B18C5DB21FF930C3004B687D /* adelante.mp3 in Resources */,
+				B18C5E021FF930C3004B687D /* sombra.mp3 in Resources */,
+				B18C5DA31FF930C3004B687D /* diplomatico.mp3 in Resources */,
+				B110E3361FF8436600F44B22 /* PasitosAyuda.storyboard in Resources */,
+				B18C5DD11FF930C3004B687D /* farmaceuticos.mp3 in Resources */,
+				B18C5E181FF930C3004B687D /* manola.mp3 in Resources */,
+				B18C5E0B1FF930C3004B687D /* tresruedas.mp3 in Resources */,
+				B18C5DE41FF930C3004B687D /* quiere.mp3 in Resources */,
+				B18C5DD41FF930C3004B687D /* paipai.mp3 in Resources */,
+				B18C5E011FF930C3004B687D /* rocio.mp3 in Resources */,
+				B18C5E261FF930C3004B687D /* curriculum.mp3 in Resources */,
+				B18C5DA21FF930C3004B687D /* mopa.mp3 in Resources */,
+				B18C5D971FF930C3004B687D /* envidiaSana.mp3 in Resources */,
+				B18C5DBE1FF930C3004B687D /* denegao.mp3 in Resources */,
+				B18C5D9E1FF930C3004B687D /* vida.mp3 in Resources */,
+				B18C5E081FF930C3004B687D /* talco.mp3 in Resources */,
+				B18C5DE81FF930C3004B687D /* toro.mp3 in Resources */,
+				B18C5DCB1FF930C3004B687D /* colectivo.mp3 in Resources */,
+				B18C5E251FF930C3004B687D /* ursula.mp3 in Resources */,
+				B18C5E191FF930C3004B687D /* puton.mp3 in Resources */,
+				B18C5E1F1FF930C3004B687D /* ashin.mp3 in Resources */,
+				B18C5E161FF930C3004B687D /* muyrapido.mp3 in Resources */,
+				B18C5DF81FF930C3004B687D /* quirofanoCompleto.mp3 in Resources */,
 				B1B828E91FF80BC800AF9785 /* Assets.xcassets in Resources */,
+				B18C5DAE1FF930C3004B687D /* aceituna.mp3 in Resources */,
+				B18C5DE71FF930C3004B687D /* deto.mp3 in Resources */,
+				B18C5DB61FF930C3004B687D /* mundo.mp3 in Resources */,
+				B18C5DF91FF930C3004B687D /* higuera.mp3 in Resources */,
+				B18C5E031FF930C3004B687D /* dedos.mp3 in Resources */,
+				B18C5DAA1FF930C3004B687D /* camellona.mp3 in Resources */,
+				B18C5DFA1FF930C3004B687D /* incurta.mp3 in Resources */,
+				B18C5DE01FF930C3004B687D /* mequierestocar.mp3 in Resources */,
+				B18C5E061FF930C3004B687D /* tiendaErotica.mp3 in Resources */,
+				B18C5DEA1FF930C3004B687D /* andaguapa.mp3 in Resources */,
+				B18C5D9A1FF930C3004B687D /* lavidaibaenserio.mp3 in Resources */,
+				B18C5DB01FF930C3004B687D /* amiga.mp3 in Resources */,
+				B18C5DE51FF930C3004B687D /* vos.mp3 in Resources */,
 				B1B828E41FF80BC800AF9785 /* Main.storyboard in Resources */,
+				B18C5E0E1FF930C3004B687D /* conio.mp3 in Resources */,
+				B18C5DCF1FF930C3004B687D /* besos.mp3 in Resources */,
+				B18C5DC71FF930C3004B687D /* pollicaNueva.mp3 in Resources */,
+				B18C5D991FF930C3004B687D /* hastaLuego.mp3 in Resources */,
+				B18C5DE31FF930C3004B687D /* furgolista.mp3 in Resources */,
+				B18C5DDF1FF930C3004B687D /* limusina.mp3 in Resources */,
+				B18C5E291FF930C3004B687D /* obesa.mp3 in Resources */,
+				B18C5DAB1FF930C3004B687D /* aprende.mp3 in Resources */,
+				B18C5E111FF930C3004B687D /* cubata.mp3 in Resources */,
+				B18C5E171FF930C3004B687D /* mala.mp3 in Resources */,
+				B18C5DB91FF930C3004B687D /* gracias.mp3 in Resources */,
+				B18C5E041FF930C3004B687D /* toya.mp3 in Resources */,
+				B18C5DC31FF930C3004B687D /* envidiosa.mp3 in Resources */,
+				B18C5E2A1FF930C3004B687D /* ojete.mp3 in Resources */,
+				B18C5DA81FF930C3004B687D /* reto.mp3 in Resources */,
+				B18C5E1E1FF930C3004B687D /* ejercer.mp3 in Resources */,
+				B18C5E211FF930C3004B687D /* quirofano.mp3 in Resources */,
+				B18C5DFE1FF930C3004B687D /* maradona.mp3 in Resources */,
+				B18C5DBC1FF930C3004B687D /* sandra.mp3 in Resources */,
+				B18C5DDB1FF930C3004B687D /* noche.mp3 in Resources */,
+				B18C5DAD1FF930C3004B687D /* rosi.mp3 in Resources */,
+				B18C5DB51FF930C3004B687D /* pollaNova.mp3 in Resources */,
+				B18C5E001FF930C3004B687D /* conosia.mp3 in Resources */,
+				B18C5E2C1FF930C3004B687D /* dormir.mp3 in Resources */,
+				B18C5DCE1FF930C3004B687D /* camaleonica.mp3 in Resources */,
+				B18C5DD31FF930C3004B687D /* callaros.mp3 in Resources */,
+				B18C5E051FF930C3004B687D /* tuno.mp3 in Resources */,
+				B18C5DC61FF930C3004B687D /* cartier.mp3 in Resources */,
+				B18C5DFB1FF930C3004B687D /* alamierda.mp3 in Resources */,
+				B18C5DEB1FF930C3004B687D /* marranona.mp3 in Resources */,
+				B18C5D931FF930C3004B687D /* aprieta.mp3 in Resources */,
+				B18C5DA11FF930C3004B687D /* dotado.mp3 in Resources */,
+				B18C5DD61FF930C3004B687D /* sillevobragas.mp3 in Resources */,
+				B18C5E0D1FF930C3004B687D /* suda.mp3 in Resources */,
+				B18C5DF31FF930C3004B687D /* ATS.mp3 in Resources */,
+				B18C5DA91FF930C3004B687D /* canto.mp3 in Resources */,
+				B18C5DEE1FF930C3004B687D /* tracatra.mp3 in Resources */,
+				B18C5DA61FF930C3004B687D /* cristina.mp3 in Resources */,
+				B18C5DDC1FF930C3004B687D /* vayais.mp3 in Resources */,
+				B18C5DED1FF930C3004B687D /* amigoConDerechoARoce.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +991,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A24887FBC977F17C5FD00B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dame VenenoTests/Pods-Dame VenenoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DB171452E134FF6D38A44E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dame VenenoUITests/Pods-Dame VenenoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		288F1A9EEBF1A19DF2483897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dame VenenoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44EFF0E6DFDACD463DA3543A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dame Veneno/Pods-Dame Veneno-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BWWalkthrough/BWWalkthrough.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GSMessages/GSMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BWWalkthrough.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dame Veneno/Pods-Dame Veneno-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A6F52F05F55F6B4370549C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dame Veneno/Pods-Dame Veneno-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D611BA822247B3FC38C28B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dame VenenoUITests/Pods-Dame VenenoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0392A68D2B587F07F010CA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dame VenenoTests/Pods-Dame VenenoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E80FF3A0309D70942F5560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dame Veneno-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46733600C3A96A4840F8C03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dame VenenoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1B828D71FF80BC800AF9785 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B828E11FF80BC800AF9785 /* ViewController.swift in Sources */,
+				B1B829181FF81B4700AF9785 /* InformacionViewController.swift in Sources */,
+				B1B829141FF80CDE00AF9785 /* InterestCollectionViewCell.swift in Sources */,
+				B1B829101FF80CA700AF9785 /* InterestsViewController.swift in Sources */,
 				B1B828DF1FF80BC800AF9785 /* AppDelegate.swift in Sources */,
 				B1B828E71FF80BC800AF9785 /* Dame_Veneno.xcdatamodeld in Sources */,
+				B1B829121FF80CC600AF9785 /* ElementoVeneno.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,13 +1319,15 @@
 		};
 		B1B829071FF80BC800AF9785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBFA7E8C2D5D945003E86D3 /* Pods-Dame Veneno.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99M6GEBD75;
 				INFOPLIST_FILE = "Dame Veneno/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pepitoenpeligro.Dame-Veneno";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pepitoenpeligro.DameVeneno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,13 +1336,15 @@
 		};
 		B1B829081FF80BC800AF9785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DAF15406717E897A6A4DCC /* Pods-Dame Veneno.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99M6GEBD75;
 				INFOPLIST_FILE = "Dame Veneno/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pepitoenpeligro.Dame-Veneno";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pepitoenpeligro.DameVeneno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +1353,7 @@
 		};
 		B1B8290A1FF80BC800AF9785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004CB397ADE8E82590AC080B /* Pods-Dame VenenoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +1371,7 @@
 		};
 		B1B8290B1FF80BC800AF9785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27863490EB97C039DEB6CA3B /* Pods-Dame VenenoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +1389,7 @@
 		};
 		B1B8290D1FF80BC800AF9785 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDBA95D9B1B749755EB3F8DA /* Pods-Dame VenenoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +1406,7 @@
 		};
 		B1B8290E1FF80BC800AF9785 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EAE163E1BFE8F7C78DA9DA3 /* Pods-Dame VenenoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
