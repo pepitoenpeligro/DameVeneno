@@ -364,6 +364,8 @@
 		B18C5D921FF930C3004B687D /* mal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mal.mp3; sourceTree = "<group>"; };
 		B18C5E2E1FF93838004B687D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		B18C5E2F1FF93838004B687D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B18C5E5A1FF9765D004B687D /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BWWalkthroughViewController.swift; path = Pods/BWWalkthrough/BWWalkthrough/BWWalkthroughViewController.swift; sourceTree = "<group>"; };
+		B18C5E5B1FF9765D004B687D /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BWWalkthroughPageViewController.swift; path = Pods/BWWalkthrough/BWWalkthrough/BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
 		B1B828DB1FF80BC800AF9785 /* Dame Veneno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dame Veneno.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B828DE1FF80BC800AF9785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1B828E31FF80BC800AF9785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -687,6 +689,8 @@
 		D62AD594E83C843A411BD181 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B18C5E5B1FF9765D004B687D /* BWWalkthroughPageViewController.swift */,
+				B18C5E5A1FF9765D004B687D /* BWWalkthroughViewController.swift */,
 				B18C5E2F1FF93838004B687D /* AVFoundation.framework */,
 				B18C5E2E1FF93838004B687D /* AVKit.framework */,
 				B1B829191FF835A200AF9785 /* WebKit.framework */,
@@ -1258,10 +1262,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1309,9 +1314,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1327,8 +1333,9 @@
 				INFOPLIST_FILE = "Dame Veneno/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pepitoenpeligro.DameVeneno;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pepito.DameVeneno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1344,8 +1351,9 @@
 				INFOPLIST_FILE = "Dame Veneno/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pepitoenpeligro.DameVeneno;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pepito.DameVeneno;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

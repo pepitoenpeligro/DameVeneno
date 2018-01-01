@@ -27,14 +27,14 @@
 		<key>NSAllowsArbitraryLoadsInWebContent</key>
 		<true/>
 	</dict>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Necesitamos grabar el audio </string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Necesitamos reconocer tu voz para poder darte una respuesta</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
