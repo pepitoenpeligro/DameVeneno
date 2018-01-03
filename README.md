@@ -57,7 +57,7 @@ Hay más de 150 respuestas (probadas) disponibles, seguro que habrá más aún. 
 30. Se te ven los pezones
 
 
-## Agradecimientos
+## Agradecimientos
 La aplicación ha sido desarrollada íntegramente por:
 José Antonio Córdoba (@pepitoenpeligro)
 Marta Arenas (@martaarenas22)
