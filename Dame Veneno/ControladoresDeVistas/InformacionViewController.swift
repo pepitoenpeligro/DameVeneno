@@ -20,6 +20,12 @@ class InformacionViewController: UIViewController {
         cerrarButton.isUserInteractionEnabled = true
         cerrarButton.addGestureRecognizer(tapGestureREcognizerText)
         
+        self.navigationController?.navigationBar.isHidden = true
+    
+        
+        
+        
+        
 //        if let miURL = URL(string: "https://stackoverflow.com"){
 //            let request2 = URLRequest(url: miURL)
 //            let session = URLSession.shared

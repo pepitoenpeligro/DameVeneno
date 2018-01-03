@@ -11,37 +11,37 @@ import ChameleonFramework
 
 class Utilidades{
     static let colores : [UIColor] = [
-        UIColor.flatBlue,
-        UIColor.flatBlueDark,
-        UIColor.flatBrown,
-        UIColor.flatBrownDark,
-        UIColor.flatCoffee,
-        UIColor.flatCoffeeDark,
-        UIColor.flatForestGreen,
-        UIColor.flatForestGreenDark,
-        UIColor.flatGray,
-        UIColor.flatGreen,
-        UIColor.flatGreenDark,
-        UIColor.flatLime,
-        UIColor.flatLimeDark,
-        UIColor.flatMagenta,
-        UIColor.flatMaroon,
-        UIColor.flatMint,
-        UIColor.flatMintDark,
-        UIColor.flatNavyBlue,
-        UIColor.flatOrange,
-        UIColor.flatOrangeDark,
-        UIColor.flatPlum,
-        UIColor.flatPlumDark,
-        UIColor.flatPowderBlue,
-        UIColor.flatPowderBlueDark,
-        UIColor.flatPurple,
-        UIColor.flatPurpleDark,
-        UIColor.flatRed,
-        UIColor.flatRedDark,
-        UIColor.flatSkyBlue,
-        UIColor.flatSkyBlueDark,
-        UIColor.flatYellow
+        UIColor.flatBlue,   // 0
+        UIColor.flatBlueDark,   // 1
+        UIColor.flatBrown,  // 2
+        UIColor.flatBrownDark,  // 3
+        UIColor.flatCoffee, // 4
+        UIColor.flatCoffeeDark, // 5
+        UIColor.flatForestGreen,    // 6
+        UIColor.flatForestGreenDark,    // 7
+        UIColor.flatGray,   // 8
+        UIColor.flatGreen,  // 9
+        UIColor.flatGreenDark,  // 10
+        UIColor.flatLime,   // 11
+        UIColor.flatLimeDark,   // 12
+        UIColor.flatMagenta,    // 13
+        UIColor.flatMaroon,     // 14
+        UIColor.flatMint,   // 15
+        UIColor.flatMintDark,   // 16
+        UIColor.flatNavyBlue,   // 17
+        UIColor.flatOrange, // 18
+        UIColor.flatOrangeDark, // 19
+        UIColor.flatPlum,   // 20
+        UIColor.flatPlumDark,   // 21
+        UIColor.flatPowderBlue, // 22
+        UIColor.flatPowderBlueDark, //23
+        UIColor.flatPurple, // 24
+        UIColor.flatPurpleDark, //25
+        UIColor.flatRed,    // 26
+        UIColor.flatRedDark,    // 27
+        UIColor.flatSkyBlue,    // 28
+        UIColor.flatSkyBlueDark,    // 29
+        UIColor.flatYellow  // 30
     ]
     
 }
@@ -76,16 +76,16 @@ class ElementoVeneno
     
     static func crearElementos() -> [ElementoVeneno]{
         return [
-            ElementoVeneno(arch: "ATS",tit: "ATS",cat: "",text: "",col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
-            ElementoVeneno(arch: "aDieta",tit: "A Dieta",cat: "",text: "",col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
-            ElementoVeneno(arch: "aceite",tit: "Aceita",cat: "",text: "",col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
+            ElementoVeneno(arch: "ATS",tit: "ATS",cat: "",text: "",col: Utilidades.colores[25]),
+            ElementoVeneno(arch: "aDieta",tit: "A Dieta",cat: "",text: "",col: Utilidades.colores[28]),
+            ElementoVeneno(arch: "aceite",tit: "Aceita",cat: "",text: "",col: Utilidades.colores[15]),
             ElementoVeneno(arch: "aceituna",tit: "Aceituna",cat: "",text: "",col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
             ElementoVeneno(arch: "adelante",tit: "Adelante",cat: "",text: "",col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
             ElementoVeneno(arch: "alamierda",tit: "A la mierda",cat: "",text: "",col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
             ElementoVeneno(arch: "ambipur",tit: "Ambipur",cat: "",text: "",col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
             ElementoVeneno(arch: "amiga",tit: "Amiga",cat: "",text: "",col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
             ElementoVeneno(arch: "amigoConDerechoARoce",tit: "Amigo",cat: "",text: "", col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
-            ElementoVeneno(arch: "amino",tit: "Anda Guapa",cat: "",text: "", col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
+            ElementoVeneno(arch: "amino",tit: "A mi no",cat: "",text: "", col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
             ElementoVeneno(arch: "andaguapa",tit: "Anda Guapa",cat: "",text: "", col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
             ElementoVeneno(arch: "androcur",tit: "Androcur",cat: "",text: "", col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
             ElementoVeneno(arch: "aprende",tit: "Aprende",cat: "",text: "", col: Utilidades.colores[Int(arc4random_uniform(UInt32(Utilidades.colores.count)))]),
