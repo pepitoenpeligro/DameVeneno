@@ -2,7 +2,6 @@
 Esta aplicación es en recuerdo y honor a la figura pública de Cristina La Veneno.
 
 ![icono](https://user-images.githubusercontent.com/14912971/34543857-586ff660-f0e3-11e7-8527-8d3390ebc217.png)
-![venenonewgrande](https://user-images.githubusercontent.com/14912971/34543864-5c7ee324-f0e3-11e7-8a2d-4d53339e1d94.png)
 
 ## Muestra de funcionamiento en un iPhone X
 
@@ -72,3 +71,4 @@ Marta Arenas (@martaarenas22)
 Míriam Mengíbar (@mirismr)
 
 Siempre te recordaremos, Cristina <3
+![venenonewgrande](https://user-images.githubusercontent.com/14912971/34543864-5c7ee324-f0e3-11e7-8a2d-4d53339e1d94.png)
