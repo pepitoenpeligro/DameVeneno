@@ -1,7 +1,7 @@
 # Dame Veneno
 Esta aplicación es en recuerdo y honor a la figura pública de Cristina La Veneno.
 
-https://user-images.githubusercontent.com/14912971/34543526-980a3792-f0e1-11e7-9459-1218635d606e.gif
+[[https://user-images.githubusercontent.com/14912971/34543526-980a3792-f0e1-11e7-9459-1218635d606e.gif]]
 
 ## Funcionalidades
 1. Si pulsas sobre una carta, podrás reproducir el audio correspondiente al título o parar la reproducción
