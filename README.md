@@ -1,6 +1,8 @@
 # Dame Veneno
 Esta aplicación es en recuerdo y honor a la figura pública de Cristina La Veneno.
 
+https://user-images.githubusercontent.com/14912971/34543526-980a3792-f0e1-11e7-9459-1218635d606e.gif
+
 ## Funcionalidades
 1. Si pulsas sobre una carta, podrás reproducir el audio correspondiente al título o parar la reproducción
 2. Si mantienes pulsado podrás compartir dicho audio mediante cualquier medio (Whatsapp, Telegram, iCloud, Dropbox...)
@@ -22,6 +24,8 @@ Como es un proyecto sin ánimo de lucro y a favor del software libre, puedes des
 
 
 ## Interactuando con La Veneno
+Hay más de 150 respuestas (probadas) disponibles, seguro que habrá más aún. ¡Descúbrelas!
+
 1. ¿Cómo te llamas?
 2. ¿Cómo me llamo?
 3. ¿Qué te has comprado?.
