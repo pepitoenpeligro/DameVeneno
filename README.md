@@ -1,7 +1,14 @@
 # Dame Veneno
 Esta aplicación es en recuerdo y honor a la figura pública de Cristina La Veneno.
 
+![icono](https://user-images.githubusercontent.com/14912971/34543857-586ff660-f0e3-11e7-8527-8d3390ebc217.png)
+![venenonewgrande](https://user-images.githubusercontent.com/14912971/34543864-5c7ee324-f0e3-11e7-8a2d-4d53339e1d94.png)
+
+## Muestra de funcionamiento en un iPhone X
+
 ![](https://user-images.githubusercontent.com/14912971/34543526-980a3792-f0e1-11e7-9459-1218635d606e.gif)
+
+---
 
 ## Funcionalidades
 1. Si pulsas sobre una carta, podrás reproducir el audio correspondiente al título o parar la reproducción
@@ -56,6 +63,7 @@ Hay más de 150 respuestas (probadas) disponibles, seguro que habrá más aún. 
 29. ¿Lo entiendes?
 30. Se te ven los pezones
 
+---
 
 ## Agradecimientos
 La aplicación ha sido desarrollada íntegramente por:
