@@ -17,17 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dame Veneno" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0h-wt-3DL">
-                                <rect key="frame" x="68" y="312" width="239.5" height="43"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="venenoNewGrande" translatesAutoresizingMaskIntoConstraints="NO" id="7ya-Qd-Q2I">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="S0h-wt-3DL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="my9-sA-AH6"/>
-                            <constraint firstItem="S0h-wt-3DL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zIB-eA-CO9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7ya-Qd-Q2I" secondAttribute="bottom" id="5hP-s5-cfM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7ya-Qd-Q2I" secondAttribute="trailing" id="H9s-qp-zvz"/>
+                            <constraint firstItem="7ya-Qd-Q2I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="d94-Op-nxH"/>
+                            <constraint firstItem="7ya-Qd-Q2I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tBg-3d-EYh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -37,4 +36,7 @@
             <point key="canvasLocation" x="48.799999999999997" y="372.86356821589209"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="venenoNewGrande" width="2382" height="3368"/>
+    </resources>
 </document>

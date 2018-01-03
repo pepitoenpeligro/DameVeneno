@@ -1,0 +1,6 @@
+framework module Pods_Dame_VenenoUITests {
+  umbrella header "Pods-Dame VenenoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
