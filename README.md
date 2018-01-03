@@ -8,12 +8,11 @@ Esta aplicación es en recuerdo y honor a la figura pública de Cristina La Vene
 2. Si mantienes pulsado podrás compartir dicho audio mediante cualquier medio (Whatsapp, Telegram, iCloud, Dropbox...)
 3. Si pulsas sobre el botón del micrófono podrás entablar una conversación como si fuera ella.
 
-```
-¿Cómo te llamas?
-```
 
 ## ¿Cómo instalar?
-Estoy intentando que salga en la App Store pero es complicado debido a las normas internas de Apple. Que exista ya en la Google Play Store bajo mi nombre no sirve como excusa para que Apple la incluya en su catálogo de aplicaciones.
+Estoy intentando que salga en la App Store pero es complicado debido a las normas internas de Apple. Que exista ya en la Google Play Store bajo mi nombre no sirve como excusa para que Apple la incluya en su catálogo de aplicaciones (https://developer.apple.com/app-store/review/guidelines/)
+
+En Android prodréis encontrarlo cómo ![DameVeneno](https://play.google.com/store/apps/details?id=com.veneno.pepito.dameveneno)
 
 Como es un proyecto sin ánimo de lucro y a favor del software libre, puedes descargar éste repositorio y realizar la instalación tú mismo de la siguiente forma:
 
@@ -57,7 +56,11 @@ Hay más de 150 respuestas (probadas) disponibles, seguro que habrá más aún. 
 29. ¿Lo entiendes?
 30. Se te ven los pezones
 
-Espero que disfrutéis de la aplicación y la cuideís.
 
+## Agradecimientos
+La aplicación ha sido desarrollada íntegramente por:
+José Antonio Córdoba (@pepitoenpeligro)
+Marta Arenas (@martaarenas22)
+Míriam Mengíbar (@mirismr)
 
-Siempre te recordaré, Cristina <3
+Siempre te recordaremos, Cristina <3
