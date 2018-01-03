@@ -32,7 +32,30 @@ Hay más de 150 respuestas (probadas) disponibles, seguro que habrá más aún. 
 4. ¡Silencio!
 5. Quien es Ana Obregón
 6. ¿Quién eres?
-
+7. ¿Qué es el androcur?
+8. ¿Te llevas bien con ...?
+9. ¿Puedo pasar adelante ...?
+10. ¡No aprietes más!
+11. ¿Qué vamos a comer?
+12. Yo no siento
+13. ¿Te han comparado con ...?
+14. Llámalos!
+15. No uso tacones
+16. Me he puesto braguitas / bragas
+17. Manda a callar Veneno
+18. Me atraganto
+19. ¿Llevas bragas Veneno?
+20. Te quiero
+21. Me gustas
+22. ¿Quién te conoce a tí?
+23. Deja ya de criticar Veneno
+24. Yo no he puesto los cuernos
+25. No eres nada Veneno
+26. ¿Has ido a la farmacia?
+27. Gracias
+28. Tú no te metas
+29. ¿Lo entiendes?
+30. Se te ven los pezones
 
 Espero que disfrutéis de la aplicación y la cuideís.
 
