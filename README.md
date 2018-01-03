@@ -12,7 +12,7 @@ Esta aplicación es en recuerdo y honor a la figura pública de Cristina La Vene
 ## ¿Cómo instalar?
 Estoy intentando que salga en la App Store pero es complicado debido a las normas internas de Apple. Que exista ya en la Google Play Store bajo mi nombre no sirve como excusa para que Apple la incluya en su catálogo de aplicaciones (https://developer.apple.com/app-store/review/guidelines/)
 
-En Android prodréis encontrarlo cómo ![DameVeneno](https://play.google.com/store/apps/details?id=com.veneno.pepito.dameveneno)
+En Android prodréis encontrarlo cómo https://play.google.com/store/apps/details?id=com.veneno.pepito.dameveneno
 
 Como es un proyecto sin ánimo de lucro y a favor del software libre, puedes descargar éste repositorio y realizar la instalación tú mismo de la siguiente forma:
 
