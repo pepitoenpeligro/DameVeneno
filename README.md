@@ -22,6 +22,7 @@ Como es un proyecto sin ánimo de lucro y a favor del software libre, puedes des
 4. Conecta tu iPhone/iPad, asegúrate de que lo tienes seleccionado en XCode en el menú superior, y dale al botón de play. En unos minutos ya lo tendrás instalado
 
 ## Interactuando con La Veneno
+
 1. ¿Cómo te llamas?
 2. ¿Cómo me llamo?
 3. ¿Qué te has comprado?.
